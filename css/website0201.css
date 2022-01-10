@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #767676;
+    background-image: url(../images/page_bg.jpg);
+    background-repeat: repeat-x;
+    margin: 0px; 
+    /* mg0 -> 解決麻繩斷掉的問題 */
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 54, 4);
+}
+a:hover{
+    text-decoration: underline;
+    color: #c7ab76;
+}
+a:active{
+    font-size: 15px;
+    color: red;
+}
+#header{
+    background-image: url(../images/header.gif);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 146px;
+}
+.headerlogo{
+    float: left;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.headercopy{
+    float: left;
+    margin-top: 75px;
+    margin-left: 8px;
+    font-size: 11px;
+}
+#content{
+    background-image: url(../images/content_bg.gif);
+    background-repeat: repeat-y;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+#contentL{
+    width: 245px;
+}
+.noborder{
+    border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.transition{
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.transition:hover{
+    -webkit-opacity: 0.5;
+    -moz-opacity:0.5;
+    opacity: 0.5;
+}
+#listNew{
+    margin-left: 50px;
+    /* 離左邊邊間空50像素的距離 */
+    margin-right: 30px;
+    /* 離右邊空出30像素的距離 */
+    line-height: 1.5em;
+}
+#content #contentL #listNew p{
+    border-top-style: dotted;
+    border-top-width: 1px;
+    border-top-color: #000;
+    padding-top: 10px;
+}
+#contentR{
+    width: 555px;
+}
+#topphoto{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#contentMain{
+    margin-left: 13px;
+    margin-right: 55px;
+    line-height: 2.5em;
+}
+.subtitle{
+    color: #c7ab76;
+    font-size: 14px;
+    font-weight: bold;
+}
+#footer{
+    background-image: url(../images/footer.gif);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 52px;
+
+}

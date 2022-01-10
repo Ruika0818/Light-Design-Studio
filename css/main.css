@@ -1,0 +1,105 @@
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/page_bg.jpg);
+    background-repeat: repeat-x;
+    margin: 0px;
+    color: #767676;
+}
+a{
+    text-decoration: none;
+    color: rgb(97, 63, 27);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(205, 133, 56);
+}
+img{
+    display: block;
+    /* vertical-align: top; */
+    /* 消除img底下空白空間 */
+}
+.header{
+    background-image: url(../images/header.gif);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 146px;
+}
+.headerlogo{
+    float: left;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.headercopy{
+    float: left;
+    margin-top: 75px;
+    margin-left: 8px;
+}
+.content{
+    background-image: url(../images/content_bg.gif);
+    background-repeat: repeat-y;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+.contentL{
+    width: 245px;
+}
+.listNew{
+    line-height: 1.5em;
+    margin-right: 30px; 
+    margin-left: 50px;
+}
+.content .contentL .listNew p{
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #000;
+    padding-top: 10px;
+}
+.subtitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(186, 81, 0);
+}
+.noborder{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.transition{
+    -moz-transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.transition:hover{
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.contentR{
+    width: 555px;
+}
+.topphoto{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+.contentMain{
+    margin-right: 55px;
+    margin-left: 13px;
+    line-height: 2.5em;
+}
+.footer{
+    background-image: url(../images/footer.gif);
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 800px;
+}
