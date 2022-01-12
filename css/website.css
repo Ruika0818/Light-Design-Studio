@@ -90,12 +90,50 @@ img{
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
-
+}
+.topphoto2{
+    margin-top: 15px;
+    margin-left: 19px;
 }
 .contentMain{
     margin-right: 55px;
     margin-left: 13px;
     line-height: 2.5em;
+}
+.contentAbout{
+    width: 480px;
+    margin-left: 13px;
+    margin-top: 20px;
+    line-height: 2.5em;
+}
+.contentWorks{
+    width: 507px;
+    margin-left: 13px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.works{
+    width: 487px;
+    padding: 15px 20px 20px 0px;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #98772b;
+    float: left;
+}
+.worksPic{
+    float: left;
+}
+.worksTitle{
+    margin-left: 205px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #789f2c;
+}
+.worksText{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 280px;
 }
 .footer{
     background-image: url(../images/footer.gif);
